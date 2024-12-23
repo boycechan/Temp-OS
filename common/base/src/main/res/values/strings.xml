@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permission_disable_tip">已禁用权限，请手动授予</string>
+    <string name="settting">设置</string>
+    <string name="cancel">取消</string>
+</resources>

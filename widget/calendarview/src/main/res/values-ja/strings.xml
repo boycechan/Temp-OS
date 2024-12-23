@@ -1,0 +1,13 @@
+<resources>
+    <string name="sans_serif" translatable="false">sans-serif</string>
+    <string name="today">今日</string>
+
+    <!--日历-->
+    <string name="week_day_01">月</string>
+    <string name="week_day_02">火</string>
+    <string name="week_day_03">水</string>
+    <string name="week_day_04">木</string>
+    <string name="week_day_05">金</string>
+    <string name="week_day_06">土</string>
+    <string name="week_day_07">日</string>
+</resources>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--自定义CustomToolbar-->
+    <declare-styleable name="TouchelxToolbar" tools:ignore="ResourceName">
+        <!--背景颜色-->
+        <attr name="tb_background_color" format="color|reference" />
+        <!--中间标题名称-->
+        <attr name="tb_title" format="string|reference" />
+        <!--中间标题显示位置-->
+        <attr name="tb_title_gravity">
+            <flag name="left" value="0x03" />
+            <flag name="right" value="0x05" />
+            <flag name="center_vertical" value="0x10" />
+            <flag name="center_horizontal" value="0x01" />
+            <flag name="center" value="0x11" />
+        </attr>
+        <!--左边标题名称-->
+        <attr name="tb_left_title" format="string|reference" />
+        <!--右边标题名称-->
+        <attr name="tb_right_title" format="string|reference" />
+        <!--中间标题名称颜色-->
+        <attr name="tb_title_color" format="color|reference" />
+        <!--左边标题名称颜色-->
+        <attr name="tb_left_title_color" format="color|reference" />
+        <!--右边标题名称颜色-->
+        <attr name="tb_right_title_color" format="color|reference" />
+        <!--左边标题名称图标-->
+        <attr name="tb_icon" format="reference" />
+        <!--右边标题名称图标-->
+        <attr name="tb_icon_right" format="reference" />
+        <!--右边标题背景-->
+        <attr name="tb_right_bg" format="reference" />
+        <!--右边标题字体大小-->
+        <attr name="tb_right_text_size" format="dimension" />
+        <!--主标题字体大小-->
+        <attr name="tb_title_text_size" format="dimension" />
+        <!--主标题字体样式-->
+        <attr name="tb_title_text_style">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <!--右边标题宽度-->
+        <attr name="tb_right_text_width" format="dimension" />
+        <!--右边标题高度-->
+        <attr name="tb_right_text_height" format="dimension" />
+        <!--是否显示标题栏与下边的分隔线-->
+        <attr name="tb_enable_split_line" format="boolean" />
+    </declare-styleable>
+
+    <!--自定义CustomToolbar-->
+    <declare-styleable name="RoundFrameLayout">
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+    <!--带清除内容icon的EditView-->
+    <declare-styleable name="ClearEditText">
+        <!--清除内容icon-->
+        <attr name="clear_icon" format="reference" />
+    </declare-styleable>
+
+    <!--刻度尺-->
+    <declare-styleable name="RulerView">
+        <attr name="selected_color" format="color" />
+        <!--刻度线间隔-->
+        <attr name="line_spacing" format="dimension" />
+        <!--刻度线宽度-->
+        <attr name="line_width" format="dimension" />
+        <!--刻度线高度-->
+        <attr name="line_max_height" format="dimension" />
+        <attr name="line_middle_height" format="dimension" />
+        <attr name="line_min_height" format="dimension" />
+
+        <attr name="text_margin_top" format="dimension" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="line_color" format="color" />
+    </declare-styleable>
+
+    <!--心率区间-->
+    <declare-styleable name="HeartRateRangeView" />
+
+    <!--波纹动画view-->
+    <declare-styleable name="WhewView">
+        <!--波纹颜色-->
+        <attr name="color" format="color" />
+        <!--波纹初始半径大小-->
+        <attr name="init_radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SegmentedControlView">
+        <attr name="segCornersRadius" format="dimension|reference"/>
+        <attr name="segBackgroundColor" format="color"/>
+        <attr name="segSelectedItemBackgroundColor" format="color"/>
+        <attr name="segTextColor" format="color"/>
+        <attr name="segSelectedItemTextColor" format="color"/>
+        <attr name="segItemHorizontalMargin" format="dimension|reference"/>
+        <attr name="segItemVerticalMargin" format="dimension|reference"/>
+        <attr name="segSelectedItem" format="integer"/>
+        <attr name="segItemPadding" format="dimension|reference"/>
+        <attr name="segTextSize" format="dimension"/>
+        <attr name="segScrollSelectEnabled" format="boolean"/>
+        <attr name="segCornersMode">
+            <enum name="Round" value="0"/>
+            <enum name="Circle" value="1"/>
+        </attr>
+        <attr name="bgStrokeWidth" format="dimension|reference"/>
+        <attr name="offset" format="dimension|reference"/>
+    </declare-styleable>
+    <declare-styleable name="CalendarView">
+
+        <!-- The xml resource that is inflated and used as the day cell view, must be provided. -->
+        <attr name="cv_dayViewResource" format="reference" />
+
+        <!-- The xml resource that is inflated and used as a header for every month. -->
+        <attr name="cv_monthHeaderResource" format="reference" />
+
+        <!-- The xml resource that is inflated and used as a footer for every month. -->
+        <attr name="cv_monthFooterResource" format="reference" />
+
+        <!-- The maximum number of rows(1 to 6) to show on each month. If a month has a total of
+        6 rows and maxRowCount is set to 4, there will be two appearances of that month on the
+        calendar, the first one will show 4 rows and the second one will show the remaining 2 rows.
+        To show a week mode calendar, set this value to 1. -->
+        <attr name="cv_maxRowCount" format="integer" />
+
+        <!-- A ViewGroup which is instantiated and used as the background for each month.
+         This class must have a constructor which takes only a Context. You should
+         exclude the name and constructor of this class from code obfuscation if enabled. -->
+        <attr name="cv_monthViewClass" format="string" />
+
+        <!-- Determines if dates of a month should stay in its section or can flow into another month's section.
+         If true, a section can only contain dates belonging to that month, its inDates and outDates.
+         if false, the dates are added continuously, irrespective of month sections.
+
+         When this property is false, a few things behave slightly differently:
+         - If inDateStyle is either `allMonths` or `firstMonth`, only the first index will contain inDates.
+         - If outDateStyle is either `endOfRow` or `endOfGrid`, only the last index will contain outDates.
+         - If outDateStyle is `endOfGrid`, outDates are generated for the last index until it
+           satisfies the `maxRowCount` requirement. -->
+        <attr name="cv_hasBoundaries" format="boolean" />
+
+        <!--This determines the scroll direction of the the calendar. -->
+        <attr name="cv_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+
+        <!-- Determines how outDates are generated for each month on the calendar.
+        If set to `endOfRow`, the calendar will generate outDates until
+        it reaches the first end of a row. This means that if a month has 6 rows,
+        it will display 6 rows and if a month has 5 rows, it will display 5 rows.
+        If set to `endOfGrid`, the calendar will generate outDates until
+        it reaches the end of a 6 x 7 grid. This means that all months will have 6 rows.
+        If set to `none`, no outDates will be generated. -->
+        <attr name="cv_outDateStyle" format="enum">
+            <enum name="endOfRow" value="0" />
+            <enum name="endOfGrid" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+
+        <!-- Determines how inDates are generated for each month on the calendar.
+         If set to `allMonths`, the calendar will generate inDates for all months.
+         If set to `firstMonth`, inDates will be generated for the first month only.
+         If set to `none`, inDates will not be generated, this means that there will be
+         no offset on any month. -->
+        <attr name="cv_inDateStyle" format="enum">
+            <enum name="allMonths" value="0" />
+            <enum name="firstMonth" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+
+        <!-- The scrolling behavior of the calendar. If `paged`, the calendar
+        will snap to the nearest month after a scroll or swipe action.
+        If `continuous`, the calendar scrolls normally. -->
+        <attr name="cv_scrollMode" format="enum">
+            <enum name="continuous" value="0" />
+            <enum name="paged" value="1" />
+        </attr>
+
+        <!-- The duration in milliseconds of the animation used to adjust the CalendarView's
+        height when `scrollMode` is `paged` and the CalendarView height is set to `wrap_content`.
+        The height change happens when the CalendarView scrolls to a month which has less or more
+        rows than the previous one. Default value is 200. To disable the animation, set this value to zero. -->
+        <attr name="cv_wrappedPageHeightAnimationDuration" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="RadiusProgressView">
+        <attr name="progressBgColor" format="color"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="android:progress" />
+        <attr name="android:max" />
+        <attr name="android:radius" />
+        <attr name="progressStyle" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

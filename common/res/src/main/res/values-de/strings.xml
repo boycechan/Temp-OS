@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="processing">Verarbeitung</string>
+    <string name="warm_hint">Warmer Hinweis</string>
+    <string name="done">Abgemacht</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="location_background_title">Möchten Sie die App immer im Hintergrund laufen lassen?</string>
+    <string name="location_background_message">Diese App sammelt Standortdaten, um [Tracks] und [Background Bluetooth Search] zu aktivieren, auch wenn die App geschlossen ist oder nicht verwendet wird.</string>
+    <string name="call_authority_title">Möchten Sie der App den Zugang zu Anrufen, Anrufprotokollen und Kontakten ermöglichen?</string>
+    <string name="call_authority_message">Diese App erhält Anrufinformationen, Kommunikationsaufzeichnungen oder SMS, um die Funktionen von "Anruferinnerung" und "Nachrichtenerinnerung" zu aktivieren, auch wenn die App bereits im Hintergrund ist.</string>
+</resources>

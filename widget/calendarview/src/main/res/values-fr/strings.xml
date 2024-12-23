@@ -1,0 +1,13 @@
+<resources>
+    <string name="sans_serif" translatable="false">sans-serif</string>
+    <string name="today">Aujourd\'hui</string>
+
+    <!--日历-->
+    <string name="week_day_01">Lun</string>
+    <string name="week_day_02">Mar</string>
+    <string name="week_day_03">Mer</string>
+    <string name="week_day_04">Jeu</string>
+    <string name="week_day_05">Ven</string>
+    <string name="week_day_06">Sam</string>
+    <string name="week_day_07">Dim</string>
+</resources>

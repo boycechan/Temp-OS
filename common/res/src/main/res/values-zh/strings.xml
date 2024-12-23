@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="processing">处理中</string>
+    <string name="warm_hint">温馨提示</string>
+    <string name="done">确定</string>
+    <string name="cancel">取消</string>
+    <string name="location_background_title">要允许应用始终在后台运行吗？</string>
+    <string name="location_background_message">此应用会收集位置数据以启用["运动轨迹"]和["后台蓝牙搜索"]，即使本应用已关闭或未在使用中也仍会这样做。</string>
+    <string name="call_authority_title">要允许应用获取手机来电，通话记录和通讯录吗？</string>
+    <string name="call_authority_message">此应用会获取手机来电信息、通讯记录或短信，以启用["来电提醒"]和["消息提醒"]功能，即使本应用已在后台也仍会这样做。</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="processing">trasformazione</string>
+    <string name="warm_hint">Suggerimento caldo</string>
+    <string name="done">Fatto</string>
+    <string name="cancel">Annulla</string>
+    <string name="location_background_title">Vuoi permettere all\'app di funzionare sempre sullo sfondo?</string>
+    <string name="location_background_message">Questa app raccoglie dati di posizione per abilitare [Tracks] e [Ricerca Bluetooth di sfondo] anche se l\'applicazione è chiusa o non è in uso</string>
+    <string name="call_authority_title">Vuoi permettere all\'app di accedere alle telefonate, ai log delle chiamate e ai contatti?</string>
+    <string name="call_authority_message">Questa app riceverà informazioni telefoniche, record di comunicazione o SMS per abilitare le funzioni di "promemoria della chiamata" e "promemoria del messaggio", anche se l\'app è già sullo sfondo.</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="processing">processing</string>
+    <string name="warm_hint">Warm hint</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="location_background_title">Do you want to allow the app to always run in the background?</string>
+    <string name="location_background_message">This app collects location data to enable [Tracks] and [Background Bluetooth Search] even if the app is closed or not in use</string>
+    <string name="call_authority_title">Do you want to allow the app to access phone calls, call logs and contacts?</string>
+    <string name="call_authority_message">This app will get phone call information, communication record or SMS to enable the functions of "call reminder" and "message reminder", even if the app is already in the background.</string>
+</resources>

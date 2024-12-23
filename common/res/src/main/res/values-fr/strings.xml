@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="processing">Traitement</string>
+    <string name="warm_hint">Conseils chaleureux</string>
+    <string name="done">Dorn.</string>
+    <string name="cancel">Annulation</string>
+    <string name="location_background_title">Voulez - vous permettre à l\'application de toujours fonctionner en arrière - plan?</string>
+    <string name="location_background_message">Cette application recueille des données de localisation pour activer [Track] et [background Bluetooth Search], même si l\'application est désactivée ou non utilisée</string>
+    <string name="call_authority_title">L\'application est - elle autorisée à accéder aux appels, aux enregistrements d\'appels et aux contacts?</string>
+    <string name="call_authority_message">Cette application obtient des informations téléphoniques, des enregistrements de communication ou des SMS pour activer les fonctions de rappel d\'appel et de rappel de message même si l\'application est déjà en arrière - plan.</string>
+</resources>

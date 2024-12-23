@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="processing">Tratamiento</string>
+    <string name="warm_hint">Consejos cálidos</string>
+    <string name="done">Dorn</string>
+    <string name="cancel">Cancelar</string>
+    <string name="location_background_title">¿Permite que la aplicación se ejecute siempre en el Fondo?</string>
+    <string name="location_background_message">Esta aplicación recopila datos de ubicación para habilitar [pistas] y [búsqueda Bluetooth de fondo], incluso si la aplicación está cerrada o no está en uso</string>
+    <string name="call_authority_title">¿Permite a las aplicaciones acceder a teléfonos, registros de llamadas y contactos?</string>
+    <string name="call_authority_message">Esta aplicación obtiene información telefónica, registros de comunicaciones o mensajes cortos para habilitar las funciones de recordatorio de llamadas y recordatorio de mensajes, incluso si la aplicación ya está en el Fondo.</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="sans_serif" translatable="false">sans-serif</string>
+    <string name="today">Today</string>
+
+    <!--日历-->
+    <string name="week_day_01">Sun</string>
+    <string name="week_day_02">Mon</string>
+    <string name="week_day_03">Tue</string>
+    <string name="week_day_04">Wed</string>
+    <string name="week_day_05">Thu</string>
+    <string name="week_day_06">Fri</string>
+    <string name="week_day_07">Sat</string>
+</resources>

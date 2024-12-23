@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="calendar_background">#FFF6F7F8</color>
+    <color name="calendar_week_background">#FFFFFF</color>
+    <color name="calendar_month_text_color">#111111</color>
+    <color name="calendar_text_color">#333333</color>
+    <color name="red_FD3B31">#FD3B31</color>
+    <color name="normal_day">#333333</color>
+    <color name="selected_day_background">#FD3B31</color>
+    <color name="selected_day_text">#ffffff</color>
+    <color name="to_day">#3ec599</color>
+    <color name="month_num_line">#f4f4f4</color>
+</resources>

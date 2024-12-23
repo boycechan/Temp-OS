@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_day">13dp</dimen>
+    <dimen name="text_size_month">24dp</dimen>
+    <dimen name="text_size_day_name">13dp</dimen>
+    <dimen name="header_month_height">120dp</dimen>
+    <dimen name="header_month_height_showWeek">150dp</dimen>
+    <dimen name="selected_day_radius">16dp</dimen>
+    <dimen name="month_top_padding">25dp</dimen>
+    <dimen name="month_day_left_padding">20dp</dimen>
+    <dimen name="month_day_line_padding">10dp</dimen>
+    <dimen name="month_day_line_width">3dp</dimen>
+    <dimen name="calendar_height">356dp</dimen>
+
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_13">13dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_24">24dp</dimen>
+</resources>

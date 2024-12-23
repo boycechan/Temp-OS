@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="processing">処理</string>
+    <string name="warm_hint">暖かいヒント</string>
+    <string name="done">完了</string>
+    <string name="cancel">取り消し</string>
+    <string name="location_background_title">あなたは常にバックグラウンドで実行するアプリケーションを許可しますか？</string>
+    <string name="location_background_message">このアプリは[トラック]と[バックグラウンドブルートゥース検索]を有効にするには、アプリケーションが閉じているかどうか使用していない場所のデータを収集</string>
+    <string name="call_authority_title">あなたは、アプリケーションの電話通話、通話ログと連絡先にアクセスできるようにしたいですか？</string>
+    <string name="call_authority_message">このアプリは、電話の呼び出し情報、通信記録やSMS“機能を有効にする”コールリマインダー“と”メッセージリマインダー、たとえアプリが既にバックグラウンドで取得されます。</string>
+</resources>

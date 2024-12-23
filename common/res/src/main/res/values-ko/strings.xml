@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="processing">처리 하 다.</string>
+    <string name="warm_hint">알림</string>
+    <string name="done">다 은 아.</string>
+    <string name="cancel">취소 하 다.</string>
+    <string name="location_background_title">프로그램 이 항상 배경 에서 실행 되도록 허용 합 니까?</string>
+    <string name="location_background_message">이 프로그램 은 프로그램 이 종료 되 었 거나 사용 되 지 않 더 라 도 위치 데 이 터 를 수집 합 니 다.</string>
+    <string name="call_authority_title">전화, 통화 내 역, 연락 처 를 이용 할 수 있 습 니까?</string>
+    <string name="call_authority_message">이 프로그램 은 프로그램 이 배경 에 있 더 라 도 전화 정보, 통신 기록 또는 짧 은 정 보 를 가 져 옵 니 다.</string>
+</resources>

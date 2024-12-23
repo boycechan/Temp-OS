@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:calendar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/calendar_background"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dp_15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/calendar_week_background"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/week_day_01"
+            android:textColor="@color/calendar_text_color"
+            android:textSize="@dimen/dp_13" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/week_day_02"
+            android:textColor="@color/calendar_text_color"
+            android:textSize="@dimen/dp_13" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/week_day_03"
+            android:textColor="@color/calendar_text_color"
+            android:textSize="@dimen/dp_13" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/week_day_04"
+            android:textColor="@color/calendar_text_color"
+            android:textSize="@dimen/dp_13" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/week_day_05"
+            android:textColor="@color/calendar_text_color"
+            android:textSize="@dimen/dp_13" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/week_day_06"
+            android:textColor="@color/calendar_text_color"
+            android:textSize="@dimen/dp_13" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/week_day_07"
+            android:textColor="@color/calendar_text_color"
+            android:textSize="@dimen/dp_13" />
+    </LinearLayout>
+
+    <com.touchgfx.calendarview.DayPickerView
+        android:id="@+id/day_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        calendar:colorDayName="@color/calendar_text_color"
+        calendar:colorMonthName="@color/calendar_month_text_color"
+        calendar:colorNormalDay="@color/calendar_text_color"
+        calendar:colorPreviousDay="@android:color/darker_gray"
+        calendar:colorSelectedDayBackground="@color/red_FD3B31"
+        calendar:currentDaySelected="false"
+        calendar:drawRoundRect="false"
+        calendar:enablePreviousDay="false"
+        calendar:selectSingle="true"
+        calendar:selectedDayRadius="@dimen/dp_16"
+        calendar:showMonthDay="false"
+        calendar:textSizeDay="@dimen/dp_13"
+        calendar:textSizeDayName="@dimen/dp_13"
+        calendar:textSizeMonth="@dimen/dp_24" />
+
+</LinearLayout>
